@@ -10,10 +10,10 @@ además de esto he ido escribiendo artículos relacionado con lo que he aprendid
 Dentro del repositorio podrás encontrar los notebooks de los laboratorios que hemos ido
 haciendo en el curso dentro del directorio [notebooks](notebooks)
 
-[course-link][https://learning.edx.org/course/course-v1:IBM+ML0101SP+3T2020/home]
-[twitch][https://www.twitch.tv/cristian_suarez_dev]
-[youtube][https://www.youtube.com/channel/UCqUyayArNENzh6kG0QldTXw/featured]
-[web-big-data-tag][https://www.cristiansuarez.dev/tags/big-data]
+[course-link]:https://learning.edx.org/course/course-v1:IBM+ML0101SP+3T2020/home
+[twitch]:https://www.twitch.tv/cristian_suarez_dev
+[youtube]:https://www.youtube.com/channel/UCqUyayArNENzh6kG0QldTXw/featured
+[web-big-data-tag]:https://www.cristiansuarez.dev/tags/big-data
 
 ### Run :running:
 
