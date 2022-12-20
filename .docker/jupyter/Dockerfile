@@ -20,10 +20,12 @@ WORKDIR /home/$NB_USER/jupyterlab
 RUN conda create --quiet --yes -p "${CONDA_DIR}/envs/${conda_env}" python=${py_ver} ipython ipykernel && \
     conda clean --all -f -y
 
+RUN pip install --upgrade jupyter_client
+
 # create Python 3.6 environment and link it to jupyter
-RUN "${CONDA_DIR}/envs/${conda_env}/bin/python" -m ipykernel install --user --name="${conda_env}" && \
-    fix-permissions "${CONDA_DIR}" && \
-    fix-permissions "/home/${NB_USER}"
+RUN "${CONDA_DIR}/envs/${conda_env}/bin/python" -m ipykernel install --user --name="${conda_env}" 
+RUN fix-permissions "${CONDA_DIR}"
+RUN fix-permissions "/home/${NB_USER}"
 
 
 # Install dependencies
